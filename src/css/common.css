@@ -1,3 +1,28 @@
 .display-none {
   display: none;
 }
+
+.cat-info {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.name {
+  margin-bottom: 32px;
+}
+
+.description {
+  margin-bottom: 24px;
+}
+
+.loader {
+  font-weight: bold;
+  color: tomato;
+}
